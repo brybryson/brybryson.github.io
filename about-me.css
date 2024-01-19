@@ -1,0 +1,662 @@
+
+/* SCROLLBAR */
+html, body {
+  background-color: #1e1e1f;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll; /* Enable vertical scrolling for the entire body */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #808394 #282829; /* thumb and track color */
+  overflow-y:visible; /* Remove vertical scrollbar */
+  overflow-x:hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 6px; /* Set the width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #585858; /* Set the color of the thumb */
+  border-radius: 10px; /* Round the corners of the thumb */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #282829; /* Set the color of the track */
+  border-radius: 10px; /* Round the corners of the track */
+}
+
+.element-about-me {
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+/* SCROLLBAR END */
+
+
+
+.element-about-me {
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-about-me .overlap-wrapper {
+  background-color: #121212;
+  overflow: hidden;
+  width: 1270px;
+  height: 2400px;
+}
+
+.element-about-me .overlap {
+  position: relative;
+  width: 1909px;
+  height: 2700px;
+}
+
+.element-about-me .base-color {
+  position: absolute;
+  width: 1440px;
+  height: 2700px;
+  top: 0;
+  left: 0;
+  background-color: #1e1e1f;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .RESUME {
+  position: absolute;
+  width: 309px;
+  height: 90px;
+  top: 147px;
+  left: 89px;
+}
+
+.element-about-me .text-wrapper {
+  position: absolute;
+  width: 307px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .rectangle {
+  position: absolute;
+  width: 61px;
+  height: 9px;
+  top: 81px;
+  left: 0;
+}
+
+
+/* HEADER NAVIGATION - START */
+.element-about-me .HEADER-NAVIGATION {
+  position: absolute;
+  width: 1282px;
+  height: 68px;
+  top: 0;
+  left: 0;
+}
+
+.element-about-me .overlap-6 {
+  position: relative;
+  width: 1270px;
+  height: 78px;
+  background-color: #282829;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .text-wrapper-19 {
+  position: absolute;
+  width: 306px;
+  top: 18px;
+  left: 38px;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me button {
+  background: none; /* Remove the background color */
+  border: none; /* Remove the border */
+  outline: none; /* Remove the outline on focus/click */
+  cursor: pointer;
+  padding: 0;
+  margin: 0; /* Remove any default margin */
+  transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+.element-about-me button:hover {
+  color: #637bfd; /* Change color on hover */
+}
+
+.element-about-me .text-wrapper-20,
+.element-about-me .text-wrapper-21,
+.element-about-me .text-wrapper-22,
+.element-about-me .text-wrapper-23,
+.element-about-me .text-wrapper-24 {
+  position: absolute;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .text-wrapper-20 {
+  width: 102px;
+  top: 30px;
+  left: 580px;
+}
+
+.element-about-me .text-wrapper-21 {
+  width: 102px;
+  top: 30px;
+  left: 700px;
+}
+
+.element-about-me .text-wrapper-22 {
+  width: 122px;
+  top: 30px;
+  left: 820px;
+}
+
+.element-about-me .text-wrapper-23 {
+  width: 74px;
+  top: 30px;
+  left: 960px;
+}
+
+.element-about-me .text-wrapper-24 {
+  width: 92px;
+  top: 30px;
+  left: 1060px;
+}
+
+.element-about-me .hamburger-menu {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 20px;
+  left: 1200px;
+  object-fit: cover;
+  filter: grayscale(100%); /* Initially, the image is fully grayscale */
+  transition: filter 0.3s; /* Add a smooth transition effect */
+}
+
+.element-about-me .hamburger-menu:hover {
+  filter: grayscale(0%); /* Change the filter to remove grayscale on hover */
+}
+/* HEADER NAVIGATION - END */
+
+
+/* HEADER NAVIGATION - END */
+
+
+
+.element-about-me .hello-i-m-bryant {
+  position: absolute;
+  width: 1060px;
+  top: 278px;
+  left: 92px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .SKILLS {
+  position: absolute;
+  width: 1072px;
+  height: 515px;
+  top: 1006px;
+  left: 82px;
+}
+
+.element-about-me .text-wrapper-7 {
+  position: absolute;
+  width: 307px;
+  top: 0;
+  left: 6px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .UI-UX-DESIGNER {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 121px;
+  left: 5px;
+}
+
+.element-about-me .overlap-group-2 {
+  position: relative;
+  width: 519px;
+  height: 172px;
+  background-color: #282829;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .text-wrapper-8 {
+  position: absolute;
+  width: 229px;
+  top: 25px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .p {
+  position: absolute;
+  width: 375px;
+  top: 38px;
+  left: 133px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .pen {
+  width: 71px;
+  height: 80px;
+  top: 43px;
+  left: 31px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.element-about-me .EDITING {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 121px;
+  left: 551px;
+}
+
+.element-about-me .text-wrapper-9 {
+  position: absolute;
+  width: 178px;
+  top: 25px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .text-wrapper-10 {
+  position: absolute;
+  width: 365px;
+  top: 38px;
+  left: 133px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .text-wrapper-100 {
+    position: absolute;
+    width: 365px;
+    top: 38px;
+    left: 133px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+
+.element-about-me .icons-pen {
+  position: absolute;
+  width: 78px;
+  height: 88px;
+  top: 37px;
+  left: 28px;
+  object-fit: cover;
+}
+
+.element-about-me .overlap-group-wrapper {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 341px;
+  left: 551px;
+}
+
+.element-about-me .PHOTOGRAPHY {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 343px;
+  left: 0;
+}
+
+.element-about-me .text-wrapper-11 {
+  position: absolute;
+  width: 178px;
+  top: 24px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .text-wrapper-12 {
+  position: absolute;
+  width: 376px;
+  top: 38px;
+  left: 132px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .img {
+  width: 67px;
+  height: 72px;
+  top: 49px;
+  left: 36px;
+  position: absolute;
+  object-fit: cover;
+}
+
+
+/* SCROLL BAR HORIZONTAL - RECOMMENDATIONS */
+
+
+
+.element-about-me .RECOMMENDATIONS {
+  position: absolute;
+  width: 1820px;
+  height: 414px;
+  top: 1620px;
+  left: 89px;
+}
+
+.element-about-me .text-wrapper-13 {
+  position: absolute;
+  width: 713px;
+  top: 0;
+  left: 6px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .ALLEN-IVERSON {
+  position: absolute;
+  width: 588px;
+  height: 276px;
+  top: 90px;
+  left: 0;
+}
+
+.element-about-me .overlap-group-3 {
+  position: relative;
+  width: 512px;
+  height: 276px;
+  background-color: #282829;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .text-wrapper-14 {
+  position: absolute;
+  width: 269px;
+  top: 20px;
+  left: 34px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .text-wrapper-15 {
+  position: absolute;
+  width: 128px;
+  top: 45px;
+  left: 303px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .text-wrapper-16 {
+  position: absolute;
+  width: 457px;
+  top: 75px;
+  left: 34px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .rectangle-2 {
+  position: absolute;
+  width: 46px;
+  height: 7px;
+  top: 78px;
+  left: 34px;
+}
+
+.element-about-me .KOBE-BRYANT {
+  position: absolute;
+  width: 512px;
+  height: 276px;
+  top: 90px;
+  left: 546px;
+}
+
+.element-about-me .overlap-group-4 {
+  position: absolute;
+  width: 385px;
+  height: 44px;
+  top: 21px;
+  left: 35px;
+}
+
+.element-about-me .kobe-bryant {
+  position: absolute;
+  width: 269px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .text-wrapper-17 {
+  position: absolute;
+  width: 128px;
+  top: 25px;
+  left: 257px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .PRINCESS-BIA {
+  position: absolute;
+  width: 592px;
+  height: 276px;
+  top: 430px;
+  left: 0px;
+}
+
+.element-about-me .overlap-2 {
+  position: absolute;
+  width: 512px;
+  height: 276px;
+  top: 0;
+  left: 0;
+  background-color: #282829;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .rectangle-3 {
+  position: absolute;
+  width: 46px;
+  height: 7px;
+  top: 78px;
+  left: 34px;
+}
+
+.element-about-me .scroll {
+  position: absolute;
+  width: 707px;
+  height: 7px;
+  top: 407px;
+  left: 243px;
+}
+
+
+/* last container - recommendation */
+
+.element-about-me .KOBE-BRYANT-2 {
+  position: absolute;
+  width: 512px;
+  height: 276px;
+  top: 430px;
+
+  left: 546px;
+}
+
+.element-about-me .kobe-bryant-2 {
+  position: absolute;
+  width: 269px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-about-me .overlap-group-3-2 {
+  position: relative;
+  width: 512px;
+  height: 276px;
+  background-color: #282829;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-about-me .overlap-group-4-2 {
+  position: absolute;
+  width: 385px;
+  height: 44px;
+  top: 21px;
+  left: 35px;
+}
+
+.element-about-me .text-wrapper-17-2 {
+  position: absolute;
+  width: 128px;
+  top: 25px;
+  left: 257px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-about-me .text-wrapper-16-2 {
+  position: absolute;
+  width: 457px;
+  top: 75px;
+  left: 34px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-about-me .rectangle-2-2 {
+  position: absolute;
+  width: 46px;
+  height: 7px;
+  top: 78px;
+  left: 34px;
+}

@@ -1,0 +1,548 @@
+/* SCROLLBAR */
+html, body {
+    background-color: #1e1e1f;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; /* Enable vertical scrolling for the entire body */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #808394 #282829; /* thumb and track color */
+    overflow-y:visible; /* Remove vertical scrollbar */
+    overflow-x:hidden;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #585858; /* Set the color of the thumb */
+    border-radius: 10px; /* Round the corners of the thumb */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #282829; /* Set the color of the track */
+    border-radius: 10px; /* Round the corners of the track */
+  }
+  
+  
+  /* SCROLLBAR END */
+
+
+.element-contact {
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-contact .overlap-wrapper {
+  background-color: #121212;
+  overflow: hidden;
+  width: 1270px;
+  height: 1500px;
+}
+
+.element-contact .overlap {
+  position: relative;
+  width: 1440px;
+  height: 2700px;
+  background-color: #1e1e1f;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-contact .RESUME {
+  position: absolute;
+  width: 309px;
+  height: 90px;
+  top: 146px;
+  left: 88px;
+}
+
+.element-contact .text-wrapper {
+  position: absolute;
+  width: 307px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-contact .rectangle {
+  position: absolute;
+  width: 61px;
+  height: 9px;
+  top: 81px;
+  left: 0;
+}
+
+
+
+.element-contact .UI-UX-DESIGNER {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 927px;
+  left: 93px;
+}
+
+.element-contact .overlap-2 {
+  position: relative;
+  width: 519px;
+  height: 172px;
+  background-color: #282829;
+  border-radius: 15px;
+  border: 1px solid;
+  border-color: #343333;
+}
+
+.element-contact .text-wrapper-7 {
+  position: absolute;
+  width: 313px;
+  top: 25px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-contact .p {
+  position: absolute;
+  width: 375px;
+  top: 40px;
+  left: 133px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-contact .pen {
+  position: absolute;
+  width: 71px;
+  height: 80px;
+  top: 43px;
+  left: 31px;
+  object-fit: cover;
+}
+
+.element-contact .EDITING {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 927px;
+  left: 639px;
+}
+
+.element-contact .text-wrapper-8 {
+  position: absolute;
+  width: 178px;
+  top: 25px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-contact .text-wrapper-9 {
+  position: absolute;
+  width: 376px;
+  top: 40px;
+  left: 133px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-contact .icons-pen {
+  width: 78px;
+  height: 88px;
+  top: 37px;
+  left: 28px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.element-contact .PHOTOGRAPHY {
+  position: absolute;
+  width: 523px;
+  height: 172px;
+  top: 1149px;
+  left: 88px;
+}
+
+.element-contact .text-wrapper-10 {
+  position: absolute;
+  width: 328px;
+  top: 24px;
+  left: 132px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.element-contact .text-wrapper-11 {
+  position: absolute;
+  width: 376px;
+  top: 40px;
+  left: 132px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.element-contact .img {
+  width: 67px;
+  height: 72px;
+  top: 49px;
+  left: 36px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.element-contact .header-label {
+  position: absolute;
+  width: 435px;
+  height: 90px;
+  top: 798px;
+  left: 88px;
+}
+
+.element-contact .pen-wrapper {
+  position: absolute;
+  width: 93px;
+  height: 90px;
+  top: 0;
+  left: 0;
+  background-image: url(rectangle3.svg);
+  background-size: 100% 100%;
+}
+
+.element-contact .pen-2 {
+  width: 51px;
+  height: 57px;
+  top: 15px;
+  left: 21px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.element-contact .text-wrapper-12 {
+  position: absolute;
+  width: 307px;
+  top: 17px;
+  left: 126px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-contact .submit-button {
+  position: absolute;
+  width: 10px;
+  height: 68px;
+  top: 666px;
+  left: 910px;
+}
+
+.element-contact .div-wrapper {
+  position: absolute;
+  width: 250px;
+  height: 68px;
+  background-image: url(send\ message.svg);
+  background-size: 100% 100%;
+} 
+
+.element-contact .text-wrapper-13 {
+  position: absolute;
+  width: 239px;
+  top: 17px;
+  left: 5px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #637bfd;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+/* message */
+
+
+.element-contact .overlap-4 {
+    position: absolute;
+    width: 1065px;
+    height: 200px;
+    top: 406px;
+    left: 94px;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #8e8e8e;
+    overflow: hidden; /* Hide content that exceeds the container */
+  }
+  
+  .element-contact .text-wrapper-15 {
+    position: absolute;
+    width: 950px;
+    top: 18px;
+    left: 25px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #8e8e8e;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-contact .overlap-4 textarea {
+    width: 1015px;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    outline: none;
+    resize: none; /* Disable textarea resizing */
+    overflow-y: auto; /* Enable vertical scrollbar when content exceeds the container */
+  }
+  
+  .element-contact .overlap-4 textarea:focus {
+    color: #ffffff;
+  }
+  
+
+
+/* EMAIL ADDRESS */
+
+
+.element-contact .overlap-5 {
+    position: absolute;
+    width: 470px;
+    height: 77px;
+    top: 280px;
+    left: 644px;
+  }
+  
+  .element-contact .text-wrapper-16 {
+    position: absolute;
+    width: 465px;
+    top: 19px;
+    left: 20px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #8e8e8e; /* Placeholder text color */
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-contact .overlap-5 input[type="email"] {
+    width: 100%; /* Make the input field cover the entire width of the container */
+    height: 35px;
+    border: none; /* Remove the border */
+    background-color: transparent; /* Remove the background color */
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff; /* Input text color */
+    outline: none; /* Remove the outline on focus */
+  }
+  
+  /* Style for the input field when it is focused */
+  .element-contact .overlap-5 input[type="email"]:focus {
+    color: #ffffff; /* Change text color on focus */
+  }
+  
+
+
+  /* FULL NAME */
+  .element-contact .overlap-3 {
+    position: absolute;
+    width: 470px;
+    height: 77px;
+    top: 280px;
+    left: 94px;
+  }
+  
+  .element-contact .rectangle-2 {
+    position: absolute;
+    width: 515px;
+    height: 75px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #8e8e8e;
+  }
+  
+  .element-contact .text-wrapper-14 {
+    position: absolute;
+    width: 80px;
+    top: 19px;
+    left: 26px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #8e8e8e;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-contact .overlap-3 input[type="text"] {
+    width: 100%;
+    height: 35PX;
+    border: none;
+    background-color: transparent;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  .element-contact .overlap-3 input[type="text"]:focus {
+    color: #ffffff;
+  }
+  
+
+
+
+/* HEADER NAVIGATION - START */
+.element-contact .HEADER-NAVIGATION {
+    position: absolute;
+    width: 1282px;
+    height: 68px;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  .element-contact .overlap-6 {
+    position: relative;
+    width: 1270px;
+    height: 78px;
+    background-color: #282829;
+    border: 1px solid;
+    border-color: #343333;
+  }
+  
+  .element-contact .text-wrapper-19 {
+    position: absolute;
+    width: 306px;
+    top: 18px;
+    left: 38px;
+    font-family: "Inter-Black", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+    
+  .element-contact button {
+      background: none; /* Remove the background color */
+      border: none; /* Remove the border */
+      outline: none; /* Remove the outline on focus/click */
+      cursor: pointer;
+      padding: 0;
+      margin: 0; /* Remove any default margin */
+      transition: color 0.3s; /* Add transition for smooth color change */
+    }
+    
+    .element-contact button:hover {
+      color: #637bfd; /* Change color on hover */
+    }
+    
+    .element-contact .text-wrapper-20,
+    .element-contact .text-wrapper-21,
+    .element-contact .text-wrapper-22,
+    .element-contact .text-wrapper-23,
+    .element-contact .text-wrapper-24 {
+    position: absolute;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .element-contact .text-wrapper-20 {
+    width: 102px;
+    top: 30px;
+    left: 580px;
+  }
+  
+  .element-contact .text-wrapper-21 {
+    width: 102px;
+    top: 30px;
+    left: 700px;
+  }
+  
+  .element-contact .text-wrapper-22 {
+    width: 122px;
+    top: 30px;
+    left: 820px;
+  }
+  
+  .element-contact .text-wrapper-23 {
+    width: 74px;
+    top: 30px;
+    left: 960px;
+  }
+  
+  .element-contact .text-wrapper-24 {
+    width: 92px;
+    top: 30px;
+    left: 1060px;
+  }
+  
+  .element-contact .hamburger-menu {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 20px;
+    left: 1200px;
+    object-fit: cover;
+    filter: grayscale(100%); /* Initially, the image is fully grayscale */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .element-contact .hamburger-menu:hover {
+    filter: grayscale(0%); /* Change the filter to remove grayscale on hover */
+  }
+  /* HEADER NAVIGATION - END */
